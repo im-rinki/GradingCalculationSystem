@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="Container-fluid">
+        <!-- <div class="col"> -->
+            <div class="header bg-primary">
+                <h2 class="text-center">Grading Calculating System</h2>
+                </div>
+           <div class="box"> 
+          
+            <div class="book1">
+                <label class="sub">Hindi</label>
+                <input type="text" class="form-control" id="hindi" >
+            </div>
+            <div class="book2">
+                <label>English</label>
+                <input type="text" class="form-control" id="eng">
+            </div>
+            <div class="book3">
+                <label>Bussiness</label>
+                <input type="text" class="form-control" id="buss" >
+            </div>
+            <div class="book4">
+                <label>Accounts</label>
+                <input type="text" class="form-control" id="acc">
+            </div>
+            <div class="book5">
+                <label>Economics</label>
+                <input type="text" class="form-control" id="eco" >
+            </div>
+
+            <div class="text-center m-10" id="btn">
+                <button class="btn btn-primary" id="calculatebtn" onclick="calculate()">Calculate</button>
+                </div>
+                <!-- <div > -->
+                <table class='table table-bordered'>
+                    <tr>
+                        <td>Total Remarks:</td>
+                        <td>500</td>
+                        </tr>
+                        <tr>
+                            <td >Obtained Marks:</td>
+                            <td id="obtain"></td>
+                            </tr>
+                            <tr>
+                                <td>Percentage:</td>
+                                <td id="percentage"></td>
+                                </tr>
+                                <tr>
+                                    <td>Grade:</td>
+                                    <td id="grade"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Remarks:</td>
+                                        <td id="remarks"></td>
+                                        </tr>
+                    </table>
+                </div>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>
